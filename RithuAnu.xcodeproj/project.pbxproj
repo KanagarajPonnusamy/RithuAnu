@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		13B6A3452011ABDE009A8957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6A3442011ABDE009A8957 /* AppDelegate.swift */; };
-		13B6A3472011ABDE009A8957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6A3462011ABDE009A8957 /* ViewController.swift */; };
+		13B6A3472011ABDE009A8957 /* RithuAnu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6A3462011ABDE009A8957 /* RithuAnu.swift */; };
 		13B6A34A2011ABDE009A8957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A3482011ABDE009A8957 /* Main.storyboard */; };
 		13B6A34C2011ABDE009A8957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A34B2011ABDE009A8957 /* Assets.xcassets */; };
 		13B6A34F2011ABDE009A8957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A34D2011ABDE009A8957 /* LaunchScreen.storyboard */; };
 		13B6A3572011AD97009A8957 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6A3562011AD97009A8957 /* Calculations.swift */; };
+		13B6A3592011B25B009A8957 /* RithuAnu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 13B6A3582011B25B009A8957 /* RithuAnu.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13B6A3412011ABDE009A8957 /* RithuAnu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RithuAnu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B6A3442011ABDE009A8957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13B6A3462011ABDE009A8957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13B6A3462011ABDE009A8957 /* RithuAnu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RithuAnu.swift; sourceTree = "<group>"; };
 		13B6A3492011ABDE009A8957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13B6A34B2011ABDE009A8957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13B6A34E2011ABDE009A8957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B6A3502011ABDE009A8957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B6A3562011AD97009A8957 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		13B6A3582011B25B009A8957 /* RithuAnu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RithuAnu.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		13B6A3382011ABDE009A8957 = {
 			isa = PBXGroup;
 			children = (
+				13B6A3582011B25B009A8957 /* RithuAnu.podspec */,
 				13B6A3432011ABDE009A8957 /* RithuAnu */,
 				13B6A3422011ABDE009A8957 /* Products */,
 			);
@@ -57,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				13B6A3442011ABDE009A8957 /* AppDelegate.swift */,
-				13B6A3462011ABDE009A8957 /* ViewController.swift */,
+				13B6A3462011ABDE009A8957 /* RithuAnu.swift */,
 				13B6A3482011ABDE009A8957 /* Main.storyboard */,
 				13B6A34B2011ABDE009A8957 /* Assets.xcassets */,
 				13B6A34D2011ABDE009A8957 /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B6A3592011B25B009A8957 /* RithuAnu.podspec in Resources */,
 				13B6A34F2011ABDE009A8957 /* LaunchScreen.storyboard in Resources */,
 				13B6A34C2011ABDE009A8957 /* Assets.xcassets in Resources */,
 				13B6A34A2011ABDE009A8957 /* Main.storyboard in Resources */,
@@ -139,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B6A3472011ABDE009A8957 /* ViewController.swift in Sources */,
+				13B6A3472011ABDE009A8957 /* RithuAnu.swift in Sources */,
 				13B6A3572011AD97009A8957 /* Calculations.swift in Sources */,
 				13B6A3452011ABDE009A8957 /* AppDelegate.swift in Sources */,
 			);

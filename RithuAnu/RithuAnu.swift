@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+
+class RithuAnu: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,15 @@ class ViewController: UIViewController {
         
         
     }
-
-
+    @IBAction func multiplyNumbers(_ sender: Any) {
+        let multipliedNumber = Calculations().multiplyNumbers(num1: 10, num2: 25)
+        print("Multiplied Value \(multipliedNumber)")
+    }
+    
+    @IBAction func addNumbers(_ sender: Any) {
+        let addedNumber = Calculations().addNumbers(num1: 10, num2: 25)
+        print("Added Value \(addedNumber)")
+    }
+    
 }
 
